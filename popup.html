@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blur Shield Pro</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">✧</span>
+            <h1>Shield Pro</h1>
+        </header>
+
+        <div class="section">
+            <p class="label">MANUAL CONTROLS</p>
+            <button id="selectZone" class="btn-primary">🖱 Select Focus Zone</button>
+            <button id="blurPage" class="btn-secondary">🔒 Blur Full Page</button>
+        </div>
+
+        <div class="section">
+            <p class="label">INTELLIGENT AUTOMATION</p>
+            <div class="toggle-row">
+                <span>Auto-Chat Blur (WA/IG)</span>
+                <label class="switch">
+                    <input type="checkbox" id="autoChatToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <p class="label">BLUR INTENSITY</p>
+            <input type="range" id="opacity" min="5" max="50" value="18">
+        </div>
+
+        <button id="removeBlur" class="btn-danger">❌ CLEAR ALL BLUR</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

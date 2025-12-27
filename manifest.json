@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Adaptive Blur Shield Pro",
+    "version": "2.1",
+    "icons": {
+        "16": "icons/favicon.png",
+        "48": "icons/sam23.jpg",
+        "128": "icons/whtpp.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "contextMenus",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/favicon.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}
