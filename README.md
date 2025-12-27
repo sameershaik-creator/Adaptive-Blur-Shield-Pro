@@ -30,7 +30,7 @@ A professional-grade privacy extension for Chrome that provides real-time, intel
 ## 📸 Screenshots
 | Manual Focus Zone | Auto-Chat Stealth Mode |
 |---|---|
-| ![Focus Zone](icons/sam23.jpg) | ![Auto Blur](icons/whtpp.jpg) |
+| ![Focus Zone](icons/sam23.jpg) | ![Auto Blur](icons/whtpp.png) |
 
 ---
 *Developed as a Privacy & Security project by a 2nd Year Engineering Student.*
